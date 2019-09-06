@@ -59,10 +59,6 @@ npm i -g yarn
 npm i -g @vue/cli
 ```
 
-#### React
-
-React は特に準備は不要です。
-
 ## プロジェクトの説明
 
 リポジトリの構成については次の通りです。
@@ -83,25 +79,21 @@ react-vue-handson/
 
 今回はすでにプロジェクトの基本セットは入れています。コンポーネントや状態管理の実装のハンズオンを行いたいので、プロジェクトを作成する方法を知りたい方は以下をお試しください。
 
-## おまけ
-
-#### Vue + TypeScript
-
-Vue（TypeScript + Class Component）のプロジェクトを作る時は以下を叩くと順を追ってできます。
-
 ```
-vue create vue-ts-example {プロジェクト名}
+vue create {プロジェクト名}
 ```
 
-TypeScript + Class Component での記述をオンにする場合は以下の流れで行うと良いです（今回はテストを書くところまではできないのでテスト周りは外しています）。
 選択肢にチェックを入れたい時は `space` キーを押しましょう。
-
 TypeScript を使いたくないという方は `Check the features needed for project` の時に TypeScript にチェックをいれない様にします。
+
+## おまけ
 
 #### React + TypeScript
 
-React は TypeScript と相性良いので使っていきましょう。ていうか個人的に使ってくれーーという気持ちです 😇
+React はこれで開発環境つくれます。
 
 ```
 npx create-react-app react-stopwatch --typescript
 ```
+
+※TypeScript 使わない時は `--typescript` を外すと良いです。でも型の恩恵をうけていきましょー！
